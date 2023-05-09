@@ -55,20 +55,33 @@ Hooks and filters directory? [C:/Users/andre/Documents/cpnv/MON/Labo-Master-1/.g
 
 ```
 [INPUT]
-//TODO
+ git push --set-upstream origin develop
 
 [OUTPUT]
-//TODO
+Enumerating objects: 21, done.
+Counting objects: 100% (21/21), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (20/20), done.
+Writing objects: 100% (21/21), 6.26 KiB | 3.13 MiB/s, done.
+Total 21 (delta 4), reused 10 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (4/4), done.
+remote:
+remote: Create a pull request for 'develop' on GitHub by visiting:
+remote:      https://github.com/andre1400/Labo-Master-1/pull/new/develop
+remote:
+To https://github.com/andre1400/Labo-Master-1.git
+ * [new branch]      develop -> develop
+branch 'develop' set up to track 'origin/develop'
 ```
 
 * [ ] Create a branch feature called "terraformBasicScript"
 
 ```
 [INPUT]
-//TODO
+git checkout -b terraformBasicScript
 
 [OUTPUT]
-//TODO
+Switched to a new branch 'terraformBasicScript'
 ```
 
 * [ ] Add this code and commit it (feat:add basic terraform script")
