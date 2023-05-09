@@ -15,10 +15,11 @@ Screenshot of Github
 
 ```
 [INPUT]
-//TODO
+git flow version
+
 
 [OUTPUT]
-//TODO
+1.12.3 (AVH Edition)
 ```
 
 * [ ] Init Git flow (with standard settings)
