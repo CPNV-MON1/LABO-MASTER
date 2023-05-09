@@ -35,7 +35,7 @@ git flow version
 * [ ] What do you think about this release?
 
 ```
-Une collection d'extensions Git pour fournir des opérations de référentiel de haut niveau pour le modèle de branchement de Vincent Driessen . Ce fork ajoute des fonctionnalités non ajoutées à la branche d'origine.
+une version mineure avec quelques corrections de bogues et améliorations incluses dans l'édition AVH de Git.
 ```
 
 ## What's git-flow, branches feature.
@@ -63,7 +63,6 @@ Parce ce que nous devons corriger les erreus des 2 côtés. Incorporé les corre
 
 ```
 Lorsque vous exécutez la commande git flow init sur un dépôt local existant, Git Flow vous demande de spécifier les noms des branches à utiliser pour la branche principale de développement, les branches de fonctionnalités, les branches de versions et les branches de correctifs.
-https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Ff2b4c961-c5dc-4c01-9581-27db1b2c9c69%2F3git_flow_init.png?id=bb409614-b60e-4435-a48c-10543c564d3b&table=block&spaceId=dd175d91-8278-4561-a0f1-a206f098ee1d&width=1830&userId=b0dd6b99-7188-40bf-8105-7c5bcb804f06&cache=v2
 ```
 
 * [ ] When do we need to make this git command?
