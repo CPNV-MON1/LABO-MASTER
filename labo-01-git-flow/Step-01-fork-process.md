@@ -8,28 +8,47 @@
 
 ```
 //TODO
-![ALT]<img width="934" alt="image" src="https://user-images.githubusercontent.com/115775692/237052057-00020023-e955-4af8-94a9-39f168a6b4df.png">
+![alt text](https://file.notion.so/f/s/7e3e07a9-e00b-4434-b41e-a7b6b23a967f/Untitled.png?id=a33c3042-eeac-406d-911d-0999b5a7e6bd&table=block&spaceId=1aaa7f1b-fcfb-4bd9-86c3-920f1f8b66fb&expirationTimestamp=1683712326001&signature=vp4i5MZ12430rrzueoWGU98SBsdCyoOHowaORoTM0Es&downloadName=Untitled.png "image Title")
 ```
 
 * [ ] Clone your own repo in your local machine
 
 ```
 [INPUT]
-git flow version
+git clone https://github.com/andre1400/Labo-Master-1.git
 
 
 [OUTPUT]
-1.12.3 (AVH Edition)
+Cloning into 'Labo-Master-1'...
+remote: Enumerating objects: 12, done.
+remote: Counting objects: 100% (12/12), done.
+remote: Compressing objects: 100% (11/11), done.
+remote: Total 12 (delta 0), reused 12 (delta 0), pack-reused 0
+Receiving objects: 100% (12/12), 4.28 KiB | 4.28 MiB/s, done.
 ```
 
 * [ ] Init Git flow (with standard settings)
 
 ```
 [INPUT]
-//TODO
+git flow init -d
 
 [OUTPUT]
-//TODO
+Using default branch names.
+
+Which branch should be used for bringing forth production releases?
+   - main
+Branch name for production releases: [main]
+Branch name for "next release" development: [develop]
+
+How to name your supporting branch prefixes?
+Feature branches? [feature/]
+Bugfix branches? [bugfix/]
+Release branches? [release/]
+Hotfix branches? [hotfix/]
+Support branches? [support/]
+Version tag prefix? []
+Hooks and filters directory? [C:/Users/andre/Documents/cpnv/MON/Labo-Master-1/.git/hooks]
 ```
 
 * [ ] Integrate updates from upstream (main) into your repository (develop)
