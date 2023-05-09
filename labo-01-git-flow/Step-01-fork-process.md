@@ -11,7 +11,7 @@
 ![ALT](/Labo-Master-1/fork.png)
 ```
 
-* [ ] Clone "teacher" repo in your local machine
+* [ ] Clone your own repo in your local machine
 
 ```
 [INPUT]
@@ -32,7 +32,7 @@ git flow version
 //TODO
 ```
 
-* [ ] Update your develop branch directly to the upstream (main branch)
+* [ ] Integrate updates from upstream (main) into your repository (develop)
 
 ```
 [INPUT]
@@ -42,7 +42,7 @@ git flow version
 //TODO
 ```
 
-* [ ] Create a branch feature called "feat:add terraform basic  script"
+* [ ] Create a branch feature called "terraformBasicScript"
 
 ```
 [INPUT]
@@ -52,7 +52,7 @@ git flow version
 //TODO
 ```
 
-* [ ] Add this code and commit it
+* [ ] Add this code and commit it (feat:add basic terraform script")
 
 ```
 terraform {
