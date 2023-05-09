@@ -8,7 +8,7 @@
 
 ```
 //TODO
-![ALT](/Labo-Master-1/fork.png)
+![ALT](/Labo-Master-1/img/fork.png)
 ```
 
 * [ ] Clone your own repo in your local machine
