@@ -158,7 +158,11 @@ To https://github.com/andre1400/Labo-Master-1.git
 
 ```
 //TODO
-Add your answer with command line used to validate your analysis.
+git status
+On branch feature/terraformBasicScript
+Your branch is up to date with 'origin/feature/terraformBasicScript'.
+
+nothing to commit, working tree clean
 ```
 
 * Open a pull request comparing your develop branch to your main
