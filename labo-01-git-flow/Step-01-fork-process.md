@@ -113,31 +113,45 @@ resource "aws_instance" "app_server" {
 ```
 
 ```
-[INPUT]
-//TODO
+[INPUT][OUTPUT]
+PS C:\Users\andre\Documents\cpnv\MON\Labo-Master-1> git add .
+PS C:\Users\andre\Documents\cpnv\MON\Labo-Master-1> git status
+On branch terraformBasicScript
+Your branch is up to date with 'origin/terraformBasicScript'.
 
-[OUTPUT]
-//TODO
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   terra.tf
+
+PS C:\Users\andre\Documents\cpnv\MON\Labo-Master-1> git commit -m "add basic terraform script"
+[terraformBasicScript 13b1b8e] add basic terraform script
+ 1 file changed, 23 insertions(+)
+ create mode 100644 terra.tf
 ```
 
 * [ ] Finish the feature
 
 ```
 [INPUT]
-//TODO
 
 [OUTPUT]
-//TODO
 ```
 
 * Push this modification on your repository
 
 ```
 [INPUT]
-//TODO
+//git push
 
 [OUTPUT]
-//TODO
+//Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 547 bytes | 547.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/andre1400/Labo-Master-1.git
+   36ebd4b..13b1b8e  terraformBasicScript -> terraformBasicScript
 ```
 
 * What happens to the feature/branch ?
