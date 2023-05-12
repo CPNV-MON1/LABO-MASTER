@@ -6,10 +6,7 @@
 
 * [ ] Fork the "upstream" repository in your github organisation
 
-```
-//TODO
-![alt text](https://file.notion.so/f/s/7e3e07a9-e00b-4434-b41e-a7b6b23a967f/Untitled.png?id=a33c3042-eeac-406d-911d-0999b5a7e6bd&table=block&spaceId=1aaa7f1b-fcfb-4bd9-86c3-920f1f8b66fb&expirationTimestamp=1683712326001&signature=vp4i5MZ12430rrzueoWGU98SBsdCyoOHowaORoTM0Es&downloadName=Untitled.png "image Title")
-```
+![image-20230512090218857](assets/image-20230512090218857.png)
 
 * [ ] Clone your own repo in your local machine
 
@@ -168,14 +165,8 @@ nothing to commit, working tree clean
 * Open a pull request comparing your develop branch to your main
 * Assign the pull request to your partner
 
-```
-//TODO
-Screenshot pull request on github
-```
+![image-20230512092231707](assets/image-20230512092231707.png)
 
 * Notify him using a issue "Could you please review my pull request ?"
 
-```
-//TODO
-Screenshot issue on github
-```
+![image-20230512091836022](assets/image-20230512091836022.png)
