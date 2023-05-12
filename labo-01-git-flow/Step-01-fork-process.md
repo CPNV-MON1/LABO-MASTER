@@ -180,11 +180,13 @@ La branch c'est fait effacer durant le merge entre la feature et le developp
 ```
 //TODO
 Screenshot pull request on github
-(C:\Users\Dylan\Pictures\Capture.PNG)
 
 * Notify him using a issue "Could you please review my pull request ?"
 
 ```
+![image23018398120983](assets/image23018398120983.PNG)
+
 //TODO
 Screenshot issue on github
+
 ```
