@@ -6,49 +6,79 @@
 
 * [ ] Fork the "upstream" repository in your github organisation
 
-```
-//TODO
-Screenshot of Github
-```
+![image-20230512090218857](assets/image-20230512090218857.png)
 
 * [ ] Clone your own repo in your local machine
 
 ```
 [INPUT]
-//TODO
+git clone https://github.com/andre1400/Labo-Master-1.git
+
 
 [OUTPUT]
-//TODO
+Cloning into 'Labo-Master-1'...
+remote: Enumerating objects: 12, done.
+remote: Counting objects: 100% (12/12), done.
+remote: Compressing objects: 100% (11/11), done.
+remote: Total 12 (delta 0), reused 12 (delta 0), pack-reused 0
+Receiving objects: 100% (12/12), 4.28 KiB | 4.28 MiB/s, done.
 ```
 
 * [ ] Init Git flow (with standard settings)
 
 ```
 [INPUT]
-//TODO
+git flow init -d
 
 [OUTPUT]
-//TODO
+Using default branch names.
+
+Which branch should be used for bringing forth production releases?
+   - main
+Branch name for production releases: [main]
+Branch name for "next release" development: [develop]
+
+How to name your supporting branch prefixes?
+Feature branches? [feature/]
+Bugfix branches? [bugfix/]
+Release branches? [release/]
+Hotfix branches? [hotfix/]
+Support branches? [support/]
+Version tag prefix? []
+Hooks and filters directory? [C:/Users/andre/Documents/cpnv/MON/Labo-Master-1/.git/hooks]
 ```
 
 * [ ] Integrate updates from upstream (main) into your repository (develop)
 
 ```
 [INPUT]
-//TODO
+ git push --set-upstream origin develop
 
 [OUTPUT]
-//TODO
+Enumerating objects: 21, done.
+Counting objects: 100% (21/21), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (20/20), done.
+Writing objects: 100% (21/21), 6.26 KiB | 3.13 MiB/s, done.
+Total 21 (delta 4), reused 10 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (4/4), done.
+remote:
+remote: Create a pull request for 'develop' on GitHub by visiting:
+remote:      https://github.com/andre1400/Labo-Master-1/pull/new/develop
+remote:
+To https://github.com/andre1400/Labo-Master-1.git
+ * [new branch]      develop -> develop
+branch 'develop' set up to track 'origin/develop'
 ```
 
 * [ ] Create a branch feature called "terraformBasicScript"
 
 ```
 [INPUT]
-//TODO
+git checkout -b terraformBasicScript
 
 [OUTPUT]
-//TODO
+Switched to a new branch 'terraformBasicScript'
 ```
 
 * [ ] Add this code and commit it (feat:add basic terraform script")
@@ -80,51 +110,63 @@ resource "aws_instance" "app_server" {
 ```
 
 ```
-[INPUT]
-//TODO
+[INPUT][OUTPUT]
+PS C:\Users\andre\Documents\cpnv\MON\Labo-Master-1> git add .
+PS C:\Users\andre\Documents\cpnv\MON\Labo-Master-1> git status
+On branch terraformBasicScript
+Your branch is up to date with 'origin/terraformBasicScript'.
 
-[OUTPUT]
-//TODO
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   terra.tf
+
+PS C:\Users\andre\Documents\cpnv\MON\Labo-Master-1> git commit -m "add basic terraform script"
+[terraformBasicScript 13b1b8e] add basic terraform script
+ 1 file changed, 23 insertions(+)
+ create mode 100644 terra.tf
 ```
 
 * [ ] Finish the feature
 
 ```
 [INPUT]
-//TODO
 
 [OUTPUT]
-//TODO
 ```
 
 * Push this modification on your repository
 
 ```
 [INPUT]
-//TODO
+//git push
 
 [OUTPUT]
-//TODO
+//Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 547 bytes | 547.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/andre1400/Labo-Master-1.git
+   36ebd4b..13b1b8e  terraformBasicScript -> terraformBasicScript
 ```
 
 * What happens to the feature/branch ?
 
 ```
 //TODO
-Add your answer with command line used to validate your analysis.
+git status
+On branch feature/terraformBasicScript
+Your branch is up to date with 'origin/feature/terraformBasicScript'.
+
+nothing to commit, working tree clean
 ```
 
 * Open a pull request comparing your develop branch to your main
 * Assign the pull request to your partner
 
-```
-//TODO
-Screenshot pull request on github
-```
+![image-20230512092231707](assets/image-20230512092231707.png)
 
 * Notify him using a issue "Could you please review my pull request ?"
 
-```
-//TODO
-Screenshot issue on github
-```
+![image-20230512091836022](assets/image-20230512091836022.png)
