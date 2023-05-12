@@ -130,27 +130,48 @@ git commit -m "feat:add basic terraform script"
 
 ```
 [INPUT]
-//TODO
+git flow feature finish terraform
 
 [OUTPUT]
-//TODO
+Merge made by the 'ort' strategy.
+ basic terraform script.py                | 23 +++++++++++++
+ labo-01-git-flow/Step-01-fork-process.md | 59 ++++++++++++++++++++++++++------
+ 2 files changed, 72 insertions(+), 10 deletions(-)
+ create mode 100644 basic terraform script.py
+Deleted branch feature/terraform (was 6d72425).
+
+Summary of actions:
+- The feature branch 'feature/terraform' was merged into 'develop'
+- Feature branch 'feature/terraform' has been locally deleted
+- You are now on branch 'develop'
+
 ```
 
 * Push this modification on your repository
 
 ```
 [INPUT]
-//TODO
+$ git push --set-upstream origin develop
 
 [OUTPUT]
-//TODO
+Enumerating objects: 13, done.
+Counting objects: 100% (13/13), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (10/10), done.
+Writing objects: 100% (10/10), 2.58 KiB | 1.29 MiB/s, done.
+Total 10 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), done.
+To https://github.com/DylanBerney/MON-Labo-Master.git
+   094d8ba..9b5fdc8  develop -> develop
+branch 'develop' set up to track 'origin/develop'.
 ```
 
 * What happens to the feature/branch ?
 
 ```
 //TODO
-Add your answer with command line used to validate your analysis.
+Deleted branch feature/terraform (was 6d72425).
+La branch c'est fait effacer durant le merge entre la feature et le developp
 ```
 
 * Open a pull request comparing your develop branch to your main
@@ -159,7 +180,7 @@ Add your answer with command line used to validate your analysis.
 ```
 //TODO
 Screenshot pull request on github
-```
+(C:\Users\Dylan\Pictures\Capture.PNG)
 
 * Notify him using a issue "Could you please review my pull request ?"
 
