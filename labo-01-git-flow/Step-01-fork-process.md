@@ -116,10 +116,14 @@ resource "aws_instance" "app_server" {
 
 ```
 [INPUT]
-//TODO
+git add .
+
+git commit -m "feat:add basic terraform script"
 
 [OUTPUT]
-//TODO
+[feature/terraform 524e962] feat:add basic terraform script
+ 2 files changed, 66 insertions(+), 8 deletions(-)
+ create mode 100644 basic terraform script.py
 ```
 
 * [ ] Finish the feature
