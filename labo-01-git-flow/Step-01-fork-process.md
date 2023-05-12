@@ -15,40 +15,75 @@ Screenshot of Github
 
 ```
 [INPUT]
-//TODO
+git clone https://github.com/DylanBerney/MON-Labo-Master.git
 
 [OUTPUT]
-//TODO
+Cloning into 'MON-Labo-Master'...
+remote: Enumerating objects: 12, done.
+remote: Counting objects: 100% (12/12), done.
+remote: Compressing objects: 100% (11/11), done.
+remote: Total 12 (delta 0), reused 12 (delta 0), pack-reused 0
+Receiving objects: 100% (12/12), 4.28 KiB | 4.28 MiB/s, done.
+
 ```
 
 * [ ] Init Git flow (with standard settings)
 
 ```
 [INPUT]
-//TODO
+git flow init
 
 [OUTPUT]
-//TODO
+Which branch should be used for bringing forth production releases?
+   - main
+Branch name for production releases: [main]
+Branch name for "next release" development: [develop]
+
+How to name your supporting branch prefixes?
+Feature branches? [feature/]
+Bugfix branches? [bugfix/]
+Release branches? [release/]
+Hotfix branches? [hotfix/]
+Support branches? [support/]
+Version tag prefix? []
+Hooks and filters directory? [C:/Users/Dylan/MON-Labo-Master/.git/hooks]
 ```
 
 * [ ] Update your develop branch directly to the upstream (main branch)
 
 ```
 [INPUT]
-//TODO
+git push --set-upstream origin develop
 
 [OUTPUT]
-//TODO
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'develop' on GitHub by visiting:
+remote:      https://github.com/DylanBerney/MON-Labo-Master/pull/new/develop
+remote:
+To https://github.com/DylanBerney/MON-Labo-Master.git
+ * [new branch]      develop -> develop
+branch 'develop' set up to track 'origin/develop'.
 ```
 
 * [ ] Create a branch feature called "feat:add terraform basic  script"
 
 ```
 [INPUT]
-//TODO
+git flow feature start terraform
 
 [OUTPUT]
-//TODO
+Switched to a new branch 'feature/terraform'
+M       labo-01-git-flow/Step-01-fork-process.md
+
+Summary of actions:
+- A new branch 'feature/terraform' was created, based on 'develop'
+- You are now on branch 'feature/terraform'
+
+Now, start committing on your feature. When done, use:
+
+     git flow feature finish terraform
+
 ```
 
 * [ ] Add this code and commit it
